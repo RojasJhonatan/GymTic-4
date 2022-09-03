@@ -6,6 +6,7 @@ namespace Gimnasio.App.Dominio
     public enum Genero
     {
         masculino,
-        femenino
+        femenino,
+        otro
     }
 }
