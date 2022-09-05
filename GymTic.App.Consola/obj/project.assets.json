@@ -5801,11 +5801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Archivos\\MinTic\\GymTic\\GymTic.App\\Gymtic.App.Consola\\GymTic.App.Consola.csproj",
+      "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.app.consola\\GymTic.App.Consola.csproj",
       "projectName": "GymTic.App.Consola",
-      "projectPath": "E:\\Archivos\\MinTic\\GymTic\\GymTic.App\\Gymtic.App.Consola\\GymTic.App.Consola.csproj",
+      "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.app.consola\\GymTic.App.Consola.csproj",
       "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-      "outputPath": "E:\\Archivos\\MinTic\\GymTic\\GymTic.App\\Gymtic.App.Consola\\obj\\",
+      "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.app.consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5819,8 +5819,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Archivos\\MinTic\\GymTic\\GymTic.App\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
-              "projectPath": "E:\\Archivos\\MinTic\\GymTic\\GymTic.App\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj"
+            "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
+              "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj"
             }
           }
         }

@@ -1,15 +1,14 @@
-ines (11 sloc)  310 Bytes
+using System;
 
-using system;
-
-namespace Gimnasio.App.Dominio
+namespace GymTic.App.Dominio
 {
     public class Dieta
     {
+        public int Id {get;set;}
         public string Nombre{get;set;}
         public Alimentacion Alimentacion{get;set;}
         public int Duracion{get;set;}
-        public CategoriaNutricion categoria{get;set;}
+        public CategoriaNutricion Categoria{get;set;}
         public int Verificacion{get;set;}
 
     }

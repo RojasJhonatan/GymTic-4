@@ -1,12 +1,11 @@
-using System
+using System;
 
-namespace Gimnasio.App.Dominio
-
+namespace GymTic.App.Dominio
 {
     public enum Genero
     {
-        masculino,
-        femenino,
-        otro
+        MASCULINO,
+        FEMENINO,
+        OTRO
     }
 }

@@ -4,7 +4,8 @@ namespace GymTic.App.Dominio
 {
     public class CategoriaEjercicios
     {
-        public string Nombre {get; set;}
+        public int Id {get;set;}
+        public string NombreCategoria{get; set;}
         public int PuntosSaludables {get; set;}
     
     }
