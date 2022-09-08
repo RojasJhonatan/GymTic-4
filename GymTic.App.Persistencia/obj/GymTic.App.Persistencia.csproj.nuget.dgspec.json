@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {}
+    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Persistencia\\GymTic.App.Persistencia.csproj": {}
   },
   "projects": {
     "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
+    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
+        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Persistencia\\GymTic.App.Persistencia.csproj",
         "projectName": "GymTic.App.Persistencia",
-        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
+        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Persistencia\\GymTic.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\obj\\",
+        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"

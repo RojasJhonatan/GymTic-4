@@ -20,8 +20,7 @@ namespace Gymtic.App.Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = GymTic-4");
+                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = GymTic-4");
             }
         }
     }
