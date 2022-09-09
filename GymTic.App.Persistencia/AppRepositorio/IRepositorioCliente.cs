@@ -5,11 +5,11 @@ namespace Gymtic.App.Persistencia
 {
     public interface IRepositorioCliente
     {
-        Cliente CrearCliente(Cliente Cliente);
-        Cliente ActualizarCliente(Cliente Cliente);
-        IEnumerable<Cliente> ConsultarTodosPacientes();
-        Cliente ConsultarCliente(string EMailCliente);
-        void EliminarCliente(string EMailCliente);
+        Cliente crearCliente(Cliente cliente);
+        Cliente actualizarCliente(Cliente cliente);
+        IEnumerable<Cliente> consultarTodosPacientes();
+        Cliente consultarCliente(string eMailCliente);
+        void eliminarCliente(string eMailCliente);
     }
 
 }

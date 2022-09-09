@@ -4,8 +4,8 @@ namespace GymTic.App.Dominio
 {
     public class Nutricion
     {
-        public int Id {get;set;}
-        public Dieta Dieta{get;set;}
-        public int PuntosVerificacion {get;set;}
+        public int id {get;set;}
+        public Dieta dieta{get;set;}
+        public int puntosVerificacion {get;set;}
     }
 }

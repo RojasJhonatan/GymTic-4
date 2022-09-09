@@ -7,23 +7,23 @@ namespace Gymtic.App.Persistencia
     
     public class RepositorioCliente : IRepositorioCliente
     {
-        private readonly _AppContext _appContext;
+        private readonly _AppContext _appContextBD;
 
         public RepositorioCliente(_AppContext appContext)
         {
-            this._appContext = appContext;
+            this._appContextBD = appContext;
         }
          
         public Cliente CrearCliente(Cliente Cliente)
         {
-            var ClienteCreado = _appContext.Cliente.Add(Cliente);
-            _appContext.SaveChanges();
+            var ClienteCreado = _appContextBD.Cliente.Add(Cliente);
+            _appContextBD.SaveChanges();
             return ClienteCreado.Entity;
         }
 
         public Cliente ConsultarCliente(string EMailCliente)
         {
-            var clienteEncontrado = _appContext.Cliente.FirstOrDefault(c => c.EMail == EMailCliente);
+            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.EMail == EMailCliente);
             if(clienteEncontrado !=null)
             {
                 return clienteEncontrado;
@@ -33,12 +33,12 @@ namespace Gymtic.App.Persistencia
 
         public IEnumerable<Cliente> ConsultarTodosPacientes()
         {
-            return _appContext.Cliente;
+            return _appContextBD.Cliente;
         }
 
         public Cliente ActualizarCliente(Cliente Cliente)
         {
-            var clienteEncontrado = _appContext.Cliente.FirstOrDefault(c => c.EMail == Cliente.EMail);
+            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.EMail == Cliente.EMail);
             if(clienteEncontrado != null)
             {
                 clienteEncontrado.Nombre = Cliente.Nombre;
@@ -50,18 +50,18 @@ namespace Gymtic.App.Persistencia
                 clienteEncontrado.Altura = Cliente.Altura;
                 clienteEncontrado.Genero = Cliente.Genero;
 
-                _appContext.SaveChanges();
+                _appContextBD.SaveChanges();
             }
             return clienteEncontrado;
         }
 
         public void EliminarCliente(string EMailCliente)
         {
-            var clienteEncontrado = _appContext.Cliente.FirstOrDefault(c => c.EMail == EMailCliente);
+            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.EMail == EMailCliente);
             if(clienteEncontrado == null)
             return;
-            _appContext.Cliente.Remove(clienteEncontrado);
-            _appContext.SaveChanges();
+            _appContextBD.Cliente.Remove(clienteEncontrado);
+            _appContextBD.SaveChanges();
             
         }
 

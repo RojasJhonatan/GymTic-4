@@ -4,12 +4,12 @@ namespace GymTic.App.Dominio
 {
     public class Dieta
     {
-        public int Id {get;set;}
-        public string Nombre{get;set;}
-        public Alimentacion Alimentacion{get;set;}
-        public int Duracion{get;set;}
-        public CategoriaNutricion Categoria{get;set;}
-        public int Verificacion{get;set;}
+        public int id {get;set;}
+        public string nombre{get;set;}
+        public Alimentacion alimentacion{get;set;}
+        public int duracion{get;set;}
+        public CategoriaNutricion categoria{get;set;}
+        public int verificacion{get;set;}
 
     }
 }
