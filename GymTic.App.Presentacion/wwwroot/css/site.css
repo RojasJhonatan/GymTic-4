@@ -16,6 +16,17 @@ html {
 body {
   margin-bottom: 40px;
 }
+.list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color:grey;
+  padding-top: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 1vw;
+}
+
 .container{
   min-width: 100%;
   min-height: auto;
