@@ -38,17 +38,17 @@ namespace Gymtic.App.Persistencia
 
         public Cliente ActualizarCliente(Cliente Cliente)
         {
-            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.EMail == Cliente.EMail);
+            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.eMail == cliente.eMail);
             if(clienteEncontrado != null)
             {
-                clienteEncontrado.Nombre = Cliente.Nombre;
-                clienteEncontrado.Apellido = Cliente.Apellido;
-                clienteEncontrado.Contraseña = Cliente.Contraseña;
-                clienteEncontrado.Telefono = Cliente.Telefono;
-                clienteEncontrado.Direccion = Cliente.Direccion;
-                clienteEncontrado.Peso = Cliente.Peso;
-                clienteEncontrado.Altura = Cliente.Altura;
-                clienteEncontrado.Genero = Cliente.Genero;
+                clienteEncontrado.Nombre = cliente.Nombre;
+                clienteEncontrado.Apellido = cliente.Apellido;
+                clienteEncontrado.Contraseña = cliente.Contraseña;
+                clienteEncontrado.Telefono = cliente.Telefono;
+                clienteEncontrado.Direccion = cliente.Direccion;
+                clienteEncontrado.Peso = cliente.Peso;
+                clienteEncontrado.Altura = cliente.Altura;
+                clienteEncontrado.Genero = cliente.Genero;
 
                 _appContextBD.SaveChanges();
             }
