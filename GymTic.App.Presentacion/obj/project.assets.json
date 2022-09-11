@@ -1,12 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v6.0": {},
-    ".NETCoreApp,Version=v6.0/win7-x86": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v6.0": []
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\jmr85\\.nuget\\packages\\": {}
@@ -14,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.App.presentacion\\GymTic.App.Presentacion.csproj",
+      "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.presentacion\\GymTic.App.Presentacion.csproj",
       "projectName": "GymTic.App.Presentacion",
-      "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.App.presentacion\\GymTic.App.Presentacion.csproj",
+      "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.presentacion\\GymTic.App.Presentacion.csproj",
       "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-      "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.App.presentacion\\obj\\",
+      "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,6 +30,7 @@
       },
       "frameworks": {
         "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -42,12 +42,27 @@
     },
     "frameworks": {
       "net6.0": {
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win7-x86": {
-        "#import": []
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
