@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D4KzIFwjyTqyp8qRAzegifMMpzxu2nQhYc2MTF5X9+y4vpzk6g32msRigONUel//pBcstryWxty6XMHMyxryug==",
+  "dgSpecHash": "GmP5gQvJyX2DCI4Q6+3LN5rALmjikUoWfVNlrS2nEkxhZl7OS0jcfgSiodbpLrF73t0Z0T+83jtah1s1lTqjqQ==",
   "success": true,
-  "projectFilePath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Consola\\GymTic.App.Consola.csproj",
+  "projectFilePath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.consola\\GymTic.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmr85\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jmr85\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

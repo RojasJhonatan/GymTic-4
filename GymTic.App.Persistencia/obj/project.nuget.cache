@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dpy7nuVvnOSHHmvv+iTRYgf14mXMqX22jNulIruKrzVhO/b5/Hnqpzy8qI6dzHkmemXiX96icZQijE2WmlTCrQ==",
+  "dgSpecHash": "MyfzzWJ7JwVP2wQbCNi09Ls75pgl99Ap6ZfgBGLkhmvB7DUS6wZgg+tWmzNhwxX7wcT3aKoqWePOBlbn9biixA==",
   "success": true,
-  "projectFilePath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Persistencia\\GymTic.App.Persistencia.csproj",
+  "projectFilePath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmr85\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jmr85\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

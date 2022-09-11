@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Consola\\GymTic.App.Consola.csproj": {}
+    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.consola\\GymTic.App.Consola.csproj": {}
   },
   "projects": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Consola\\GymTic.App.Consola.csproj": {
+    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.consola\\GymTic.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Consola\\GymTic.App.Consola.csproj",
+        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.consola\\GymTic.App.Consola.csproj",
         "projectName": "GymTic.App.Consola",
-        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Consola\\GymTic.App.Consola.csproj",
+        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.consola\\GymTic.App.Consola.csproj",
         "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Consola\\obj\\",
+        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -5,9 +5,9 @@ namespace Gymtic.App.Persistencia
 {
     public interface IRepositorioEjercicio
     {
-        Ejercicios crearEjercicio(Ejercicios ejercicio);
-        Ejercicios actualizarEjercicio(Ejercicios ejercicio);
-        IEnumerable<Ejercicios> consultarTodosEjercicios();
+        Ejercicios crearEjercicio(Ejercicio ejercicio);
+        Ejercicios actualizarEjercicio(Ejercicio ejercicio);
+        IEnumerable<Ejercicio> consultarTodosEjercicios();
         Cliente consultarCliente(string nombreEjercico);
         void eliminarCliente(string nombreEjercico);
     }

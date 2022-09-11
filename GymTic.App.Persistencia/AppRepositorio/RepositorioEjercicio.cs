@@ -59,7 +59,7 @@ namespace Gymtic.App.Persistencia
             var ejercicioEncontrado = _appContextBD.Ejercicio.FirstOrDefault(e => e.nombre == nombre);
             if(ejercicioEncontrado == null)
             return ;
-            _appContextBD.Ejercicio.Remove(ejercicioEncontrado)
+            _appContextBD.Ejercicio.Remove(ejercicioEncontrado);
             _appContextBD.SaveChanges();
         }
 
