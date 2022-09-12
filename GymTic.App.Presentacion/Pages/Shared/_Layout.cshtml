@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/GymTic.App.Presentacion.styles.css" asp-append-version="true" />
+   
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
                 </div>
             </div>
         </nav>
-        <a class="navbar-brand" asp-area="" asp-page="/Index">GymTic</a>
+        <a class="logo" asp-area="" asp-page="/Index">GYMTIC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,8 +44,13 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
             &copy; 2022 - GymTic-4 - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
