@@ -91,3 +91,27 @@ body {
 .container-footer .redes{
   list-style: none;
 }
+
+main h2{
+  text-align: center;
+}
+.formulario{
+  text-align: center;
+  justify-content: center;
+  padding-top: 2vw;
+  background-color: rgba(218, 238, 39, 0.589);
+  width: 50%;
+  margin-left: 25%;
+}
+.formulario form{
+  display: grid;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 6vw; 
+}
+#submit{
+  margin-top: 1vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
