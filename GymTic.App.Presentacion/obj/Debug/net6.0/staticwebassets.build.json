@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "Wt1WOuc24EWGH8NsW83HS5ZJDEB3itR50LZyzJi6CSM=",
+=======
   "Hash": "Oe6000u+CkI7O7O30339iUOpssprQ/3uy54u+13xLcE=",
+>>>>>>> main
   "Source": "GymTic.App.Presentacion",
   "BasePath": "_content/GymTic.App.Presentacion",
   "Mode": "Default",
@@ -85,7 +89,62 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\icons\\facebook.png",
+      "SourceId": "GymTic.App.Presentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\",
+      "BasePath": "_content/GymTic.App.Presentacion",
+      "RelativePath": "icons/facebook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\facebook.png"
+    },
+    {
+      "Identity": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\icons\\gorjeo.png",
+      "SourceId": "GymTic.App.Presentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\",
+      "BasePath": "_content/GymTic.App.Presentacion",
+      "RelativePath": "icons/gorjeo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\gorjeo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\icons\\instagram.png",
+      "SourceId": "GymTic.App.Presentacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\",
+      "BasePath": "_content/GymTic.App.Presentacion",
+      "RelativePath": "icons/instagram.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\instagram.png"
+    },
+    {
+      "Identity": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\img\\index.jpeg",
+=======
       "Identity": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\img\\index.jpeg",
+>>>>>>> main
       "SourceId": "GymTic.App.Presentacion",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Presentacion\\wwwroot\\",
