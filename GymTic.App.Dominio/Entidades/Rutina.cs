@@ -1,11 +1,12 @@
-using system;
+using System;
 
 namespace GymTic.App.Dominio
 {
     public class Rutina
     {
-        public Ejercicios Ejercicios {get; set;}
-        public Horario Horario {get; set;}
+        public int id {get;set;}
+        public Ejercicio ejercicios {get; set;}
+        public string horario {get; set;}
     }
 
 }
