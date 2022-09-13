@@ -1,6 +1,7 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "B18g6OSRgCO3sVOwAKH9lIo7tJLvznqBiarGtK/gBFE=",
 =======
 <<<<<<< HEAD
@@ -9,6 +10,9 @@
   "Hash": "Oe6000u+CkI7O7O30339iUOpssprQ/3uy54u+13xLcE=",
 >>>>>>> main
 >>>>>>> 2eadfe04ffd2d27aea40e3aec7217548de684f55
+=======
+  "Hash": "B18g6OSRgCO3sVOwAKH9lIo7tJLvznqBiarGtK/gBFE=",
+>>>>>>> parent of 25ccab1 (ejecutarapp1209)
   "Source": "GymTic.App.Presentacion",
   "BasePath": "_content/GymTic.App.Presentacion",
   "Mode": "Default",
@@ -94,6 +98,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.presentacion\\wwwroot\\img\\index.jpeg",
 =======
 <<<<<<< HEAD
@@ -155,6 +160,11 @@
 >>>>>>> 2eadfe04ffd2d27aea40e3aec7217548de684f55
       "SourceId": "GymTic.App.Presentacion",
       "SourceType": "Discovered",
+=======
+      "Identity": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.presentacion\\wwwroot\\img\\index.jpeg",
+      "SourceId": "GymTic.App.Presentacion",
+      "SourceType": "Discovered",
+>>>>>>> parent of 25ccab1 (ejecutarapp1209)
       "ContentRoot": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.app.presentacion\\wwwroot\\",
       "BasePath": "_content/GymTic.App.Presentacion",
       "RelativePath": "img/index.jpeg",
