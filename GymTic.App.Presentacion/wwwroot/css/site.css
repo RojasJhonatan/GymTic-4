@@ -27,19 +27,10 @@ body {
   justify-content: space-between;
   list-style: none;
   background-color:grey;
-  padding-top: 1vw;
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding-top: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
   padding-bottom: 1vw;
-  border-radius: 30px;
-  text-decoration: underline;
-  font-weight: 500;
-}
-.logo{
-  margin-top: 40px;
-  margin-left: 50px;
-  text-decoration: none;
-  color: #fff;
 }
 
 .container{
