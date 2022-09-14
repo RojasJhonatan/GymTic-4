@@ -1,13 +1,13 @@
 using System;
 
-namespace Gimnasio.App.Dominio
+namespace GymTic.App.Dominio
 {
     public class Alimentacion
     {
-        public string Desayuno{get;set;}
-        public string Almuerzo{get;set;}
-        public string Cena{get;set;}
-        public string DiasSemana{get;set;}
-
+        public int id{get;set;}
+        public string desayuno{get;set;}
+        public string almuerzo{get;set;}
+        public string cena{get;set;}
+        public string diasSemana{get;set;}
     }
 }
