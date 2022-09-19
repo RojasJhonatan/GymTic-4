@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Arnol Garzon\\.nuget\\packages\\": {}
+    "C:\\Users\\jmr85\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
+      "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
       "projectName": "GymTic.App.Frontend",
-      "projectPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\Arnol Garzon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\obj\\",
+      "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
+      "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Arnol Garzon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

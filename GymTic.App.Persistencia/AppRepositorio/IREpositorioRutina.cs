@@ -10,5 +10,7 @@ namespace GymTic.App.Persistencia
         IEnumerable<Rutina> consultarTodosRutinas();
         Rutina consultarRutina(string id);
         void eliminarRutina(string id);
+
+        
     }
 }

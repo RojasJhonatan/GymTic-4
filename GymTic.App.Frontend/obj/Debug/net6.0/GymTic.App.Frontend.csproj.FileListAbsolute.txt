@@ -24,3 +24,29 @@ C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Frontend\obj\Debug\ne
 C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.pdb
 C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.genruntimeconfig.cache
 C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\ref\GymTic.App.Frontend.dll
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\appsettings.json
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Frontend.staticwebassets.runtime.json
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Frontend.exe
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Frontend.deps.json
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Frontend.runtimeconfig.json
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Frontend.dll
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Frontend.pdb
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.csproj.AssemblyReference.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.AssemblyInfoInputs.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.AssemblyInfo.cs
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.csproj.CoreCompileInputs.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.RazorAssemblyInfo.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.RazorAssemblyInfo.cs
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\GymTic.App.Frontend.styles.css
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\GymTic.App.Frontend.bundle.scp.css
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.dll
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\refint\GymTic.App.Frontend.dll
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.pdb
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.genruntimeconfig.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\ref\GymTic.App.Frontend.dll
