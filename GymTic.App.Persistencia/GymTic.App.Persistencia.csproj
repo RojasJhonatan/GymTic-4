@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Gymtic.App.Dominio\GymTic.App.Dominio.csproj" />
+    
   </ItemGroup>
 
 </Project>

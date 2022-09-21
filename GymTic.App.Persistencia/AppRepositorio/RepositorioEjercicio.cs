@@ -1,28 +1,29 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using GymTic.App.Dominio;
 using System.Linq;
 
-namespace Gymtic.App.Persistencia
+
+namespace GymTic.App.Persistencia
 {
     public class RepositorioEjercicio : IRepositorioEjercicio
     {
-        private readonly _AppContext _appContextBD;
-
-        public RepositorioEjercicio(_AppContext appContext)
+        private readonly AppContext appContextBD;
+        
+        public RepositorioEjercicio(AppContext appContext)
         {
-            this._appContextBD = appContext;
+            this.appContextBD = appContext;
         }
-
+        
         public Ejercicio crearEjercicio(Ejercicio ejercicio)
         {
-            var ejercicioCreado = _appContextBD.Ejercicio.Add(ejercicio);
-            _appContextBD.SaveChanges();
+            var ejercicioCreado = appContextBD.Ejercicio.Add(ejercicio);
+            appContextBD.SaveChanges();
             return ejercicioCreado.Entity;
         }
 
-        public Ejercicio ActualizarEjercicio(Ejercicio ejercicio)
+        public Ejercicio actualizarEjercicio(Ejercicio ejercicio)
         {
-            var ejercicioEncontrado = _appContextBD.Ejercicio.FirstOrDefault(e => e.nombre == ejercicio.nombre);
+            var ejercicioEncontrado = appContextBD.Ejercicio.FirstOrDefault(e => e.nombre == ejercicio.nombre);
             if(ejercicioEncontrado != null)
             {
                 ejercicioEncontrado.nombre = ejercicio.nombre;
@@ -33,20 +34,20 @@ namespace Gymtic.App.Persistencia
                 ejercicioEncontrado.puntosSaludables = ejercicio.puntosSaludables;
                 ejercicioEncontrado.caloriasConsumidas = ejercicio.caloriasConsumidas;
 
-                _appContextBD.SaveChanges();
+                appContextBD.SaveChanges();
 
             }
             return ejercicioEncontrado;
         }
 
-        public IEnumerable<Ejercicio> ConsultarTodosEjercicios()
+        public IEnumerable<Ejercicio> consultarTodosEjercicios()
         {
-            return _appContextBD.Ejercicio;
+            return appContextBD.Ejercicio;
         }
 
-        public Ejercicio ConsultarEjercicio(string nombre)
+        public Ejercicio consultarEjercicio(string nombre)
         {
-            var ejercicioEncontrado = _appContextBD.Ejercicio.FirstOrDefault(e => e.nombre == nombre);
+            var ejercicioEncontrado = appContextBD.Ejercicio.FirstOrDefault(e => e.nombre == nombre);
             if(ejercicioEncontrado != null)
             {
                 return ejercicioEncontrado;
@@ -56,12 +57,12 @@ namespace Gymtic.App.Persistencia
 
         public void eliminarEjercicio(string nombre)
         {
-            var ejercicioEncontrado = _appContextBD.Ejercicio.FirstOrDefault(e => e.nombre == nombre);
+            var ejercicioEncontrado = appContextBD.Ejercicio.FirstOrDefault(e => e.nombre == nombre);
             if(ejercicioEncontrado == null)
             return ;
-            _appContextBD.Ejercicio.Remove(ejercicioEncontrado);
-            _appContextBD.SaveChanges();
+            appContextBD.Ejercicio.Remove(ejercicioEncontrado);
+            appContextBD.SaveChanges();
         }
 
     }
-}
+}*/

@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using GymTic.App.Dominio;
 
-namespace Gymtic.App.Persistencia
+namespace GymTic.App.Persistencia
 {
-    public interface IRepositorioCliente
+    public interface IRepositorioDieta
     {
         Dieta crearDieta(Dieta dieta);
         Dieta actualizarDieta(Dieta dieta);
-        IEnumerable<Dieta> consulatarTodosDietas();
+        IEnumerable<Dieta> consultarTodosDietas();
         Dieta consultarDieta(string nombreDieta);
         void eliminarDieta(string nombreDieta);
     }

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using GymTic.Add.Dominio;
+using GymTic.App.Dominio;
 
-namespace GymTic.App.Dominio
+namespace GymTic.App.Persistencia
 {
     public interface IRepositorioPlanSaludable
     {

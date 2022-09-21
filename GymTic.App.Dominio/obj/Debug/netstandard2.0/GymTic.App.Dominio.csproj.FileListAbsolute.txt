@@ -2,7 +2,6 @@ E:\Archivos\MinTic\Gymtic\GymTic.App\Gymtic.App.Dominio\obj\Debug\netstandard2.0
 E:\Archivos\MinTic\Gymtic\GymTic.App\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.AssemblyInfoInputs.cache
 E:\Archivos\MinTic\Gymtic\GymTic.App\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.AssemblyInfo.cs
 E:\Archivos\MinTic\Gymtic\GymTic.App\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.csproj.CoreCompileInputs.cache
-E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.csprojAssemblyReference.cache
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.AssemblyInfoInputs.cache
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.AssemblyInfo.cs
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.csproj.CoreCompileInputs.cache
@@ -11,3 +10,5 @@ E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\bin\Debug\netstandard2.0
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\bin\Debug\netstandard2.0\GymTic.App.Dominio.pdb
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.dll
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.pdb
+E:\Archivos\MinTic\Proyecto\GymTic-4\gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.csproj.AssemblyReference.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig

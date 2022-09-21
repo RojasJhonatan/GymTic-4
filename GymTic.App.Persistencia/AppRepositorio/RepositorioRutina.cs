@@ -1,28 +1,29 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using System.Linq;
-using Gymtic.App.Dominio;
+using GymTic.App.Dominio;
 
-namespace Gymtic.App.Persistencia
+namespace GymTic.App.Persistencia
 {
     public class RepositorioRutina : IRepositorioRutina
     {
-        private readonly _AppContext appContextBD;
+        private readonly AppContext appContextBD;
 
-        public RepositorioRutina(_AppContext appContext)
+        public RepositorioRutina(AppContext appContext)
         {
             this.appContextBD = appContext;
         }
 
+    
         public Rutina crearRutina(Rutina rutina)
         {
-            var rutinaCreada = _appContextBD.Rutina.Add(rutina);
-            _appContextBD.SaveChanges();
+            var rutinaCreada = appContextBD.Rutina.Add(rutina);
+            appContextBD.SaveChanges();
             return rutinaCreada.Entity;
         }
 
         public Rutina consultarRutina(int idRutina)
         {
-            var rutinaEncontrada = _appContextBD.Rutina.FirstOrDefault(r => r.id == idRutina);
+            var rutinaEncontrada = appContextBD.Rutina.FirstOrDefault(r => r.id == idRutina);
             if(rutinaEncontrada != null)
             {
                 return rutinaEncontrada;
@@ -32,30 +33,30 @@ namespace Gymtic.App.Persistencia
 
         public IEnumerable<Rutina> consultarTodosRutinas()
         {
-            return _appContextBD.Rutina;
+            return appContextBD.Rutina;
         }
 
         public Rutina actualizarRutina(Rutina rutina)
         {
-            var rutinaEncontrada = _appContextBD.Rutina.FirstOrDefault(r => r.id == rutina.id);
+            var rutinaEncontrada = appContextBD.Rutina.FirstOrDefault(r => r.id == rutina.id);
             if(rutinaEncontrada != null)
             {
                 rutinaEncontrada.ejercicios = rutina.ejercicios;
                 rutinaEncontrada.horario = rutina.horario;
 
-                _appContextBD.SaveChanges();
+                appContextBD.SaveChanges();
             }
             return rutinaEncontrada;
         }
 
-        public void eliminarRutina(int id)
+        public void eliminarRutina(int idRutina)
         {
-            var rutinaEncontrada = _appContextBD.Rutina.FirstOrDefault(r => r.id == rutina.id);
+            var rutinaEncontrada = appContextBD.Rutina.FirstOrDefault(r => r.id == idRutina);
             if(rutinaEncontrada == null)
             return;
-            _appContextBD.Rutina.Remove(rutinaEncontrada);
-            _appContextBD.SaveChanges();
+            appContextBD.Rutina.Remove(rutinaEncontrada);
+            appContextBD.SaveChanges();
         }
     }
 
-}
+}*/

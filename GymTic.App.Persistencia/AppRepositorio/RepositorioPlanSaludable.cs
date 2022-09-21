@@ -1,46 +1,47 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using System.Linq;
+using GymTic.App.Dominio;
 
-namespace GymTic.App.Dominio
+namespace GymTic.App.Persistencia
 {
     public class RepositorioPlanSaludable : IRepositorioPlanSaludable
     {
-        private readonly _AppContext appContextBD;
+        private readonly AppContext appContextBD;
         
-        public RepositorioPlanSaludable(_AppContext appContext)
+        public RepositorioPlanSaludable(AppContext appContext)
         {
-            this._appContextBD = appContext;
+            this.appContextBD = appContext;
         }
 
         public PlanSaludable crearPlanSaludable(PlanSaludable planSaludable)
         {
-            var planSaludableCreado = _appContextBD.PlanSaludable.Add(planSaludable);
-            _appContextBD.SaveChanges();
+            var planSaludableCreado = appContextBD.PlanSaludable.Add(planSaludable);
+            appContextBD.SaveChanges();
             return planSaludableCreado.Entity;
         }
 
         public PlanSaludable actualizarPlanSaludable(PlanSaludable planSaludable)
         {
-            var planSaludableEncontrado = _appContextBD.PlanSaludable.FirstOrDefault(p => p.cliente.eMail == planSaludable.cliente.eMail);
+            var planSaludableEncontrado = appContextBD.PlanSaludable.FirstOrDefault(p => p.cliente.eMail == planSaludable.cliente.eMail);
             if(planSaludableEncontrado != null)
             {
                 planSaludableEncontrado.rutina = planSaludable.rutina;
                 planSaludableEncontrado.nutricion = planSaludable.nutricion;
                 planSaludableEncontrado.cliente = planSaludable.cliente;
 
-                _appContextBD.SaveChanges();
+                appContextBD.SaveChanges();
             }
             return planSaludableEncontrado;
         }
 
         public IEnumerable<PlanSaludable> consultarTodosPlanSaludable()
         {
-            return _appContextBD.PlanSaludable;
+            return appContextBD.PlanSaludable;
         }
         
         public PlanSaludable consultarPlanSaludable(Cliente cliente)
         {
-            var planSaludableEncontrado = _appContextBD.PlanSaludable.FirstOrDefault(p => p.cliente.eMail == planSaludable.cliente.eMail);
+            var planSaludableEncontrado = appContextBD.PlanSaludable.FirstOrDefault(p => p.cliente.eMail == planSaludable.cliente.eMail);
             if(planSaludableEncontrado != null)
             {
                 return planSaludableEncontrado;
@@ -53,8 +54,8 @@ namespace GymTic.App.Dominio
             var planSaludableEncontrado = _appContextBD.PlanSaludable.FirstOrDefault(p => p.cliente.eMail == planSaludable.cliente.eMail);
             if(planSaludableEncontrado == null)
             return;
-            _appContextBD.PlanSaludable.Remove(planSaludableEncontrado);
-            _appContextBD.SaveChanges();
+            appContextBD.PlanSaludable.Remove(planSaludableEncontrado);
+            appContextBD.SaveChanges();
         }
     }
-}
+}*/

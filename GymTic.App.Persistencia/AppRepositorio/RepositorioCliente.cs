@@ -1,29 +1,28 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using GymTic.App.Dominio;
 using System.Linq;
 
-namespace Gymtic.App.Persistencia
+
+namespace GymTic.App.Persistencia
 {
-    
     public class RepositorioCliente : IRepositorioCliente
     {
-        private readonly _AppContext _appContextBD;
-
-        public RepositorioCliente(_AppContext appContext)
+        private readonly AppContext appContextBD;
+        
+        public RepositorioCliente(AppContext appContext)
         {
-            this._appContextBD = appContext;
+            this.appContextBD = appContext;
         }
-         
-        public Cliente CrearCliente(Cliente Cliente)
+        public Cliente crearCliente(Cliente cliente)
         {
-            var ClienteCreado = _appContextBD.Cliente.Add(Cliente);
-            _appContextBD.SaveChanges();
+            var ClienteCreado = appContextBD.Cliente.Add(cliente);
+            appContextBD.SaveChanges();
             return ClienteCreado.Entity;
         }
 
-        public Cliente ConsultarCliente(string EMailCliente)
+        public Cliente consultarCliente(string eMailCliente)
         {
-            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.EMail == EMailCliente);
+            var clienteEncontrado = appContextBD.Cliente.FirstOrDefault(c => c.eMail == eMailCliente);
             if(clienteEncontrado !=null)
             {
                 return clienteEncontrado;
@@ -31,14 +30,14 @@ namespace Gymtic.App.Persistencia
             return clienteEncontrado;
         }
 
-        public IEnumerable<Cliente> ConsultarTodosPacientes()
+        public IEnumerable<Cliente> consultarTodosPacientes()
         {
-            return _appContextBD.Cliente;
+            return appContextBD.Cliente;
         }
 
-        public Cliente ActualizarCliente(Cliente Cliente)
+        public Cliente actualizarCliente(Cliente cliente)
         {
-            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.eMail == cliente.eMail);
+            var clienteEncontrado = appContextBD.Cliente.FirstOrDefault(c => c.eMail == cliente.eMail);
             if(clienteEncontrado != null)
             {
                 clienteEncontrado.Nombre = cliente.Nombre;
@@ -50,20 +49,20 @@ namespace Gymtic.App.Persistencia
                 clienteEncontrado.Altura = cliente.Altura;
                 clienteEncontrado.Genero = cliente.Genero;
 
-                _appContextBD.SaveChanges();
+                appContextBD.SaveChanges();
             }
             return clienteEncontrado;
         }
 
-        public void EliminarCliente(string EMailCliente)
+        public void eliminarCliente(string eMailCliente)
         {
-            var clienteEncontrado = _appContextBD.Cliente.FirstOrDefault(c => c.EMail == EMailCliente);
+            var clienteEncontrado = appContextBD.Cliente.FirstOrDefault(c => c.eMail == eMailCliente);
             if(clienteEncontrado == null)
             return;
-            _appContextBD.Cliente.Remove(clienteEncontrado);
-            _appContextBD.SaveChanges();
+            appContextBD.Cliente.Remove(clienteEncontrado);
+            appContextBD.SaveChanges();
             
         }
 
     }
-}
+}*/

@@ -58,7 +58,6 @@ E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\bin\Debug\netcoreapp3.1\
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\bin\Debug\netcoreapp3.1\GymTic.App.Persistencia.dll
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\bin\Debug\netcoreapp3.1\GymTic.App.Persistencia.pdb
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\bin\Debug\netcoreapp3.1\GymTic.App.Dominio.pdb
-E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.csprojAssemblyReference.cache
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.AssemblyInfoInputs.cache
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.AssemblyInfo.cs
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.csproj.CoreCompileInputs.cache
@@ -66,3 +65,5 @@ E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.dll
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.pdb
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.app.consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.genruntimeconfig.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.csproj.AssemblyReference.cache
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Consola\obj\Debug\netcoreapp3.1\GymTic.App.Consola.GeneratedMSBuildEditorConfig.editorconfig

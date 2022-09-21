@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using GymTic.App.Dominio;
 
-namespace Gymtic.App.Persistencia
+namespace GymTic.App.Persistencia
 {
     public interface IRepositorioCliente
     {

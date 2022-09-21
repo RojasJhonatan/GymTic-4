@@ -1,33 +1,35 @@
-using System.Collections.Generic;
-using Gymtic.App.Dominio;
+/*using System.Collections.Generic;
+using GymTic.App.Dominio;
 using System.Linq;
+
 
 namespace GymTic.App.Persistencia
 {
     public class RepositorioNutricion : IRepositorioNutricion
     {
-        private readonly _AppContext appContextBD;
-        public RepositorioNutricion(_AppContext appContext)
+        private readonly AppContext appContextBD;
+        
+        public RepositorioNutricion(AppContext _appContext)
         {
-            this.appContextBD = appContext;
+            this.appContextBD = _appContext;
         }
 
         public Nutricion crearNutricion(Nutricion nutricion)
         {
-            var nutricionCreado = _appContextBD.Nutricion.Add(nutricion);
-            _appContextBD.SaveChanges();
+            var nutricionCreado = appContextBD.Nutricion.Add(nutricion);
+            appContextBD.SaveChanges();
             return nutricionCreado.Entity;
         }
 
         public Nutricion actualizarNutricion(Nutricion nutricion)
         {
-            var nutricionEncontrado = _appContextBD.Nutricion.FirstOrDefault(n => n.id == nutricion.id);
+            var nutricionEncontrado = appContextBD.Nutricion.FirstOrDefault(n => n.id == nutricion.id);
             if(nutricionEncontrado != null)
             {
                 nutricionEncontrado.dieta = nutricion.dieta;
                 nutricionEncontrado.puntosVerificacion = nutricion.puntosVerificacion;
 
-                _appContextBD.SaveChanges();
+                appContextBD.SaveChanges();
 
             }
             return nutricionEncontrado;
@@ -35,12 +37,12 @@ namespace GymTic.App.Persistencia
 
         public IEnumerable<Nutricion> consultarTodosNutricion()
         {
-            return _appContextBD.Nutricion;
+            return appContextBD.Nutricion;
         }
 
         public Nutricion consultarNutricion(int id)
         {
-            var nutricionEncontrado = _appContextBD.Nutricion.FirstOrDefault(n => n.id == id);
+            var nutricionEncontrado = appContextBD.Nutricion.FirstOrDefault(n => n.id == id);
             if(nutricionEncontrado != null)
             {
                 return nutricionEncontrado;
@@ -48,17 +50,14 @@ namespace GymTic.App.Persistencia
 
         }
 
-        public void eliminarNutricion(string idNutricion)
+        public void eliminarNutricion(int idNutricion)
         {
-            var nutricionEncontrado = _appContextBD.Nutricion.FirstOrDefault(n => n.id == id);
+            var nutricionEncontrado = appContextBD.Nutricion.FirstOrDefault(n => n.id == idNutricion);
             if(nutricionEncontrado == null)
             return;
-            _appContextBD.Nutricion.Remove(nutricionEncontrado);
-            _appContextBD.SaveChanges();
-        }
-
-        
-        ;
+            appContextBD.Nutricion.Remove(nutricionEncontrado);
+            appContextBD.SaveChanges();
+        }    
     }
     
-}        
+}        */
