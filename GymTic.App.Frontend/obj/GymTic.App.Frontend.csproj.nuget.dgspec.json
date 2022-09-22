@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Frontend\\GymTic.App.Frontend.csproj": {}
+    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj": {}
   },
   "projects": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Frontend\\GymTic.App.Frontend.csproj": {
+    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Frontend\\GymTic.App.Frontend.csproj",
+        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
         "projectName": "GymTic.App.Frontend",
-        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Frontend\\GymTic.App.Frontend.csproj",
+        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Frontend\\obj\\",
+        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
