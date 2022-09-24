@@ -13,63 +13,70 @@
             <div class="container" style="padding: 40px;" >
                 <div class="form-group">
                     <div class="bg-warning p-2" style="--bs-bg-opacity: .5;">   
-                        <form class="row" >
+                        <div class="row" >
                             <div class="col-sm-6">
                                 <label asp-for="cliente.eMail" class="form-label"></label>
-                                <input asp-for="cliente.eMail" class="form-control">
+                                <input asp-for="cliente.eMail" class="form-control" placeholder="ejemplo@micorreo.com">
+                                <span asp-validation-for="cliente.eMail" class="text-danger" ></span>
                             </div>
                             <div class="col-sm-6">
                                 <label asp-for="cliente.contraseña" class="form-label"></label>
-                                <input asp-for="cliente.contraseña" class="form-control" >
+                                <input type="password" asp-for="cliente.contraseña" class="form-control" placeholder="******" >
+                                <span asp-validation-for="cliente.contraseña" class="text-danger"></span>
                             </div>
                             <div class="col-sm-6">
                                 <label asp-for="cliente.nombre" class="form-label"></label>
                                 <input asp-for="cliente.nombre" class="form-control" >
+                                <span asp-validation-for="cliente.nombre" class="text-danger"></span>
                             </div>
                             <div class="col-sm-6">
                                 <label asp-for="cliente.apellido" class="form-label"></label>
                                 <input asp-for="cliente.apellido" class="form-control">
+                                <span asp-validation-for="cliente.apellido" class="text-danger"></span>
                             </div>
                             <div class="col-sm-6">
                                 <label asp-for="cliente.telefono" class="form-label"></label>
                                 <input asp-for="cliente.telefono" class="form-control">
+                                <span asp-validation-for="cliente.telefono" class="text-danger"></span>
                             </div>
                             <div class="col-sm-2">
-                                                            
+                                <label asp-for="cliente.edad" class="form-label"></label> 
+                                <input asp-for="cliente.edad" class="form-control" placeholder="Años">
+                                <span asp-validation-for="cliente.edad" class="text-danger"></span>                         
                             </div>
                             <div class="col-sm-2">
                                 <label asp-for="cliente.peso" class="form-label"></label> 
-                                <input asp-for="cliente.peso" class="form-control"> 
+                                <input asp-for="cliente.peso" class="form-control" placeholder="Kilogramos">
+                                <span asp-validation-for="cliente.peso" class="text-danger"></span>
                             </div>
                             <div class="col-sm-2">
                                 <label asp-for="cliente.altura" class="form-label"></label>
-                                <input asp-for="cliente.altura" class="form-control">
+                                <input asp-for="cliente.altura" class="form-control" placeholder="Metros">
+                                <span asp-validation-for="cliente.altura" class="text-danger"></span>
                             </div>
-                            <div class="col-6">
+                            <div class="col-sm-6">
                                 <label asp-for="cliente.direccion" class="form-label"></label>
                                 <input asp-for="cliente.direccion" class="form-control">
+                            
+                            </div>
+                                                       
+                            <div class="col-sm-3">
+                                <label asp-for="cliente.direccion" class="form-label"></label>
+                                <input type="submit" value="Registrarse" class="btn btn-primary form-control">
+                            </div>
+                            <div class="col-sm-2 offset-sm-2">
+                                <label asp-for="cliente.direccion" class="form-label"></label>
+                                <input type="submit" value="Inicio" class="btn btn-primary form-control">
                             </div>
                             
-                            <div class="col-md-4">
-                                <label for="inputState" class="form-label">State</label>
-                                <select id="inputState" class="form-select">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                                </select>
-                            </div>
+                               
                             
-                            <div class="col-8">
-                                <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Check me out
-                                </label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Sign in</button>
-                            </div>
-                        </form>
+                            
+                            
+                            
+                    
+
+                        </div>
                     </div>
             </div>
         </div>

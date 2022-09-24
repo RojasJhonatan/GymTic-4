@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using System.Linq;
 using GymTic.App.Dominio;
 
@@ -58,4 +58,4 @@ namespace GymTic.App.Persistencia
             appContextBD.SaveChanges();
         }
     }
-}
+}*/

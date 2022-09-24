@@ -2340,6 +2340,9 @@
       "GymTic.App.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/GymTic.App.Dominio.dll": {}
         },
@@ -7536,11 +7539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.App.Persistencia\\GymTic.App.Persistencia.csproj",
+      "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
       "projectName": "GymTic.App.Persistencia",
-      "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.App.Persistencia\\GymTic.App.Persistencia.csproj",
+      "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-      "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\gymtic.App.Persistencia\\obj\\",
+      "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
