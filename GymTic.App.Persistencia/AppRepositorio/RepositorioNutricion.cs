@@ -1,4 +1,4 @@
-/*using System.Collections.Generic;
+using System.Collections.Generic;
 using GymTic.App.Dominio;
 using System.Linq;
 
@@ -60,4 +60,4 @@ namespace GymTic.App.Persistencia
         }    
     }
     
-}        */
+}        
