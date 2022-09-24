@@ -10,19 +10,68 @@
 <div class="border">
     <form method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="container" style="padding: 60px;" >
-            
-            <div class="form-group">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <label for="">Nombre</label>
+            <div class="container" style="padding: 40px;" >
+                <div class="form-group">
+                    <div class="bg-warning p-2" style="--bs-bg-opacity: .5;">   
+                        <form class="row" >
+                            <div class="col-sm-6">
+                                <label asp-for="cliente.eMail" class="form-label"></label>
+                                <input asp-for="cliente.eMail" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label asp-for="cliente.contraseña" class="form-label"></label>
+                                <input asp-for="cliente.contraseña" class="form-control" >
+                            </div>
+                            <div class="col-sm-6">
+                                <label asp-for="cliente.nombre" class="form-label"></label>
+                                <input asp-for="cliente.nombre" class="form-control" >
+                            </div>
+                            <div class="col-sm-6">
+                                <label asp-for="cliente.apellido" class="form-label"></label>
+                                <input asp-for="cliente.apellido" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label asp-for="cliente.telefono" class="form-label"></label>
+                                <input asp-for="cliente.telefono" class="form-control">
+                            </div>
+                            <div class="col-sm-2">
+                                                            
+                            </div>
+                            <div class="col-sm-2">
+                                <label asp-for="cliente.peso" class="form-label"></label> 
+                                <input asp-for="cliente.peso" class="form-control"> 
+                            </div>
+                            <div class="col-sm-2">
+                                <label asp-for="cliente.altura" class="form-label"></label>
+                                <input asp-for="cliente.altura" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label asp-for="cliente.direccion" class="form-label"></label>
+                                <input asp-for="cliente.direccion" class="form-control">
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <label for="inputState" class="form-label">State</label>
+                                <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                                </select>
+                            </div>
+                            
+                            <div class="col-8">
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="col-sm-2">
-                        
-                    </div>
-                </div>
             </div>
-        
         </div>
     </form>
 </div>

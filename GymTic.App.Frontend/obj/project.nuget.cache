@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tGgSjBBWVqj0lmEHsYD1CU6r633YQuCOtxzSBUBrxxYvrfETRuKPqkfqFcuGsWf/fUrB8HZbS4wC/lt+LLWpTg==",
+  "dgSpecHash": "zqDjzNlyuatrB2qHLlgCZ9YuqiVardMsWVL8Z2ri7HomoJmce3GAd/sm8fqRkVORg2bwEUzQYR1K1VFVSp4YmA==",
   "success": true,
   "projectFilePath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jmr85\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

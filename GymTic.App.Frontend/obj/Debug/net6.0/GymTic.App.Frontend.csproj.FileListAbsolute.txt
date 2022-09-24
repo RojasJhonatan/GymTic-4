@@ -50,3 +50,6 @@ E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\refint
 E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.pdb
 E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.genruntimeconfig.cache
 E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\ref\GymTic.App.Frontend.dll
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Dominio.dll
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\bin\Debug\net6.0\GymTic.App.Dominio.pdb
+E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Frontend\obj\Debug\net6.0\GymTic.App.Frontend.csproj.CopyComplete
