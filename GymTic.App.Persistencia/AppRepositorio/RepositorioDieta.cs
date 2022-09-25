@@ -32,15 +32,15 @@ namespace GymTic.App.Persistencia
 
         public IEnumerable<Dieta> consultarTodosDietas()
         {
-            return appContextBD.Dietas;
+            return appContextBD.Dieta;
         }
 
         public Dieta actualizarDieta(Dieta dieta)
         {
-            var dietaEncontrado = appContextBD.Dieta.FirstOrDefault(d => d.nombre == dieta.Nombre);
+            var dietaEncontrado = appContextBD.Dieta.FirstOrDefault(d => d.nombre == dieta.nombre);
             if(dietaEncontrado != null)
             {
-                dietaEncontrado.nombre = dieta.Nombre;
+                dietaEncontrado.nombre = dieta.nombre;
                 dietaEncontrado.alimentacion = dieta.alimentacion;
                 dietaEncontrado.duracion = dieta.duracion;
                 dietaEncontrado.categoria = dieta.categoria;
@@ -53,7 +53,7 @@ namespace GymTic.App.Persistencia
 
         public void eliminarDieta(string nombre)
         {
-            var dietaEncontrado = _appContextBD.Dieta.FirstOrDefault(d => d.nombre == dieta.Nombre);
+            var dietaEncontrado = appContextBD.Dieta.FirstOrDefault(d => d.nombre == nombre);
             if(dietaEncontrado == null)
             return;
             appContextBD.Dieta.Remove(dietaEncontrado);

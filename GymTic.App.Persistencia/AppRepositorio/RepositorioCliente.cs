@@ -40,14 +40,16 @@ namespace GymTic.App.Persistencia
             var clienteEncontrado = appContextBD.Cliente.FirstOrDefault(c => c.eMail == cliente.eMail);
             if(clienteEncontrado != null)
             {
-                clienteEncontrado.Nombre = cliente.Nombre;
-                clienteEncontrado.Apellido = cliente.Apellido;
-                clienteEncontrado.Contraseña = cliente.Contraseña;
-                clienteEncontrado.Telefono = cliente.Telefono;
-                clienteEncontrado.Direccion = cliente.Direccion;
-                clienteEncontrado.Peso = cliente.Peso;
-                clienteEncontrado.Altura = cliente.Altura;
-                clienteEncontrado.Genero = cliente.Genero;
+                clienteEncontrado.nombre = cliente.nombre;
+                clienteEncontrado.apellido = cliente.apellido;
+                clienteEncontrado.contraseña = cliente.contraseña;
+                clienteEncontrado.telefono = cliente.telefono;
+                clienteEncontrado.direccion = cliente.direccion;
+                clienteEncontrado.peso = cliente.peso;
+                clienteEncontrado.altura = cliente.altura;
+                clienteEncontrado.genero = cliente.genero;
+                clienteEncontrado.edad = cliente.edad;
+                
 
                 appContextBD.SaveChanges();
             }

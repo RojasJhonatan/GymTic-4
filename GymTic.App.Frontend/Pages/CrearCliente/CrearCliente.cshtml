@@ -5,14 +5,14 @@
 }
 
 
-<h1 class="test-info" style="text-aling: center;">Registro</h1>
+<h1 class="bg-light p-2" style="--bs-bg-opacity: .5;" style="text-aling: center;">Registro</h1>
 
 <div class="border">
     <form method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="container" style="padding: 40px;" >
                 <div class="form-group">
-                    <div class="bg-warning p-2" style="--bs-bg-opacity: .5;">   
+                    <div class="bg-light p-2" style="--bs-bg-opacity: .5;">   
                         <div class="row" >
                             <div class="col-sm-6">
                                 <label asp-for="cliente.eMail" class="form-label"></label>
@@ -60,22 +60,15 @@
                             
                             </div>
                                                        
-                            <div class="col-sm-3">
-                                <label asp-for="cliente.direccion" class="form-label"></label>
+                            <div class="col-sm-2">
+                                <label >.</label>
                                 <input type="submit" value="Registrarse" class="btn btn-primary form-control">
                             </div>
                             <div class="col-sm-2 offset-sm-2">
-                                <label asp-for="cliente.direccion" class="form-label"></label>
-                                <input type="submit" value="Inicio" class="btn btn-primary form-control">
+                                <label >.</label>
+                                <a asp-page="/Index" class="btn btn-info form-control">Volver</a>
+                                
                             </div>
-                            
-                               
-                            
-                            
-                            
-                            
-                    
-
                         </div>
                     </div>
             </div>

@@ -4,14 +4,14 @@
     "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {}
   },
   "projects": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj": {
+    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj",
+        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
         "projectName": "GymTic.App.Dominio",
-        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj",
+        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\obj\\",
+        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -86,8 +86,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj": {
-                "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj"
+              "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
+                "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj"
               }
             }
           }

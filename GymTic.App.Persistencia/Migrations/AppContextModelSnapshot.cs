@@ -40,7 +40,7 @@ namespace GymTic.App.Persistencia.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("alimentacion");
+                    b.ToTable("Alimentacion");
                 });
 
             modelBuilder.Entity("GymTic.App.Dominio.CategoriaEjercicios", b =>
@@ -123,7 +123,7 @@ namespace GymTic.App.Persistencia.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("cliente");
+                    b.ToTable("Cliente");
                 });
 
             modelBuilder.Entity("GymTic.App.Dominio.Dieta", b =>
@@ -154,7 +154,7 @@ namespace GymTic.App.Persistencia.Migrations
 
                     b.HasIndex("categoriaid");
 
-                    b.ToTable("dieta");
+                    b.ToTable("Dieta");
                 });
 
             modelBuilder.Entity("GymTic.App.Dominio.Ejercicio", b =>
@@ -189,7 +189,7 @@ namespace GymTic.App.Persistencia.Migrations
 
                     b.HasIndex("categoriaid");
 
-                    b.ToTable("ejercicio");
+                    b.ToTable("Ejercicio");
                 });
 
             modelBuilder.Entity("GymTic.App.Dominio.Nutricion", b =>
@@ -209,7 +209,7 @@ namespace GymTic.App.Persistencia.Migrations
 
                     b.HasIndex("dietaid");
 
-                    b.ToTable("nutricion");
+                    b.ToTable("Nutricion");
                 });
 
             modelBuilder.Entity("GymTic.App.Dominio.PlanSaludable", b =>
@@ -236,7 +236,7 @@ namespace GymTic.App.Persistencia.Migrations
 
                     b.HasIndex("rutinaid");
 
-                    b.ToTable("planSaludable");
+                    b.ToTable("PlanSaludable");
                 });
 
             modelBuilder.Entity("GymTic.App.Dominio.Rutina", b =>
@@ -256,7 +256,7 @@ namespace GymTic.App.Persistencia.Migrations
 
                     b.HasIndex("ejerciciosid");
 
-                    b.ToTable("rutina");
+                    b.ToTable("Rutina");
                 });
 
             modelBuilder.Entity("GymTic.App.Dominio.Dieta", b =>

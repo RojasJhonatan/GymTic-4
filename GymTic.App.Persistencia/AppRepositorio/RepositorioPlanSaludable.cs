@@ -39,9 +39,9 @@ namespace GymTic.App.Persistencia
             return appContextBD.PlanSaludable;
         }
         
-        public PlanSaludable consultarPlanSaludable(Cliente cliente)
+        public PlanSaludable consultarPlanSaludable(int id)
         {
-            var planSaludableEncontrado = appContextBD.PlanSaludable.FirstOrDefault(p => p.cliente.eMail == planSaludable.cliente.eMail);
+            var planSaludableEncontrado = appContextBD.PlanSaludable.FirstOrDefault(p => p.id == id);
             if(planSaludableEncontrado != null)
             {
                 return planSaludableEncontrado;
@@ -49,9 +49,9 @@ namespace GymTic.App.Persistencia
             return planSaludableEncontrado;
         }
 
-        public void eliminarPlanSaludable(Cliente cliente)
+        public void eliminarPlanSaludable(int id)
         {
-            var planSaludableEncontrado = _appContextBD.PlanSaludable.FirstOrDefault(p => p.cliente.eMail == planSaludable.cliente.eMail);
+            var planSaludableEncontrado = appContextBD.PlanSaludable.FirstOrDefault(p => p.id == id);
             if(planSaludableEncontrado == null)
             return;
             appContextBD.PlanSaludable.Remove(planSaludableEncontrado);

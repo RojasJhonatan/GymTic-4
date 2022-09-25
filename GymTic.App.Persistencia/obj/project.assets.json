@@ -7520,8 +7520,8 @@
     },
     "GymTic.App.Dominio/1.0.0": {
       "type": "project",
-      "path": "../Gymtic.App.Dominio/GymTic.App.Dominio.csproj",
-      "msbuildProject": "../Gymtic.App.Dominio/GymTic.App.Dominio.csproj"
+      "path": "../GymTic.App.Dominio/GymTic.App.Dominio.csproj",
+      "msbuildProject": "../GymTic.App.Dominio/GymTic.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7558,8 +7558,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj": {
-              "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\Gymtic.App.Dominio\\GymTic.App.Dominio.csproj"
+            "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
+              "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj"
             }
           }
         }

@@ -47,6 +47,7 @@ namespace GymTic.App.Persistencia
             {
                 return nutricionEncontrado;
             }
+            return nutricionEncontrado;
 
         }
 

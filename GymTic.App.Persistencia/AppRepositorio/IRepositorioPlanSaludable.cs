@@ -8,7 +8,7 @@ namespace GymTic.App.Persistencia
         PlanSaludable crearPlanSaludable(PlanSaludable planSaludable);
         PlanSaludable actualizarPlanSaludable(PlanSaludable planSaludable);
         IEnumerable<PlanSaludable> consultarTodosPlanSaludable();
-        PlanSaludable consultarPlanSaludable(Cliente cliente);
-        void eliminarPlanSaludable(Cliente cliente);
+        PlanSaludable consultarPlanSaludable(int idPlanSaludable);
+        void eliminarPlanSaludable(int id);
     }
 }

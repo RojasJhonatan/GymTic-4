@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GymTic.App.Dominio\GymTic.App.Dominio.csproj" />
+    <ProjectReference Include="..\GymTic.App.Persistencia\GymTic.App.Persistencia.csproj" />
+    
   </ItemGroup>
 
   <PropertyGroup>
