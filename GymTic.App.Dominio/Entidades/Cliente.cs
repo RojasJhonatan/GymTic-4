@@ -23,7 +23,7 @@ namespace GymTic.App.Dominio
        public float altura {get;set;}
        [Required]
        public int edad{get;set;}
-       [Required]
+       
        public Genero genero {get;set;}
     }
 

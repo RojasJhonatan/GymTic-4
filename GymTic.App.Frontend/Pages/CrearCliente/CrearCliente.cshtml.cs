@@ -9,11 +9,15 @@ namespace GymTic.App.Frontend.Page
     {
         [BindProperty]
         public Cliente cliente{get;set;}
-        private readonly IRepositorioCliente repoCliente;
+        
+        
+        IRepositorioCliente _repoCliente= new RepositorioCliente(new Persistencia.AppContext());
+        
+        
 
-        /*public CrearClienteModel(IRepositorioCliente rCliente)
+        public CrearClienteModel(IRepositorioCliente repoCliente)
         {
-            repoCliente = rCliente;
+            
         }
         
         public void OnGet()
@@ -26,8 +30,8 @@ namespace GymTic.App.Frontend.Page
             {
                 return Page();
             }
-            repoCliente.crearCliente(cliente);
+            _repoCliente.crearCliente(cliente);
             return RedirectToPage("/Index");
-        }*/
+        }
     }
 }

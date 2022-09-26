@@ -8,9 +8,9 @@ namespace GymTic.App.Persistencia
     {
         private readonly AppContext appContextBD;
 
-        public RepositorioRutina(AppContext appContext)
+        public RepositorioRutina()
         {
-            this.appContextBD = appContext;
+            
         }
 
     

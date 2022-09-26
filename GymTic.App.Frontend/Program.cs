@@ -1,7 +1,13 @@
+using GymTic.App.Persistencia;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSingleton<IRepositorioCliente, RepositorioCliente>();
+builder.Services.AddSingleton<IRepositorioRutina, RepositorioRutina>();
+builder.Services.AddSingleton<IRepositorioEjercicio, RepositorioEjercicio>();
 
 var app = builder.Build();
 

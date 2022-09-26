@@ -8,7 +8,11 @@ namespace GymTic.App.Persistencia
     public class RepositorioCliente : IRepositorioCliente
     {
         private readonly AppContext appContextBD;
-        
+
+        public RepositorioCliente()
+        {
+
+        }
         public RepositorioCliente(AppContext appContext)
         {
             this.appContextBD = appContext;
