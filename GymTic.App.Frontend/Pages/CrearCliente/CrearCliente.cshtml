@@ -1,4 +1,5 @@
 ﻿@page
+@using GymTic.App.Dominio
 @model GymTic.App.Frontend.Page.CrearClienteModel
 @{
     ViewData["Title"]="Crear Cliente";
@@ -59,7 +60,13 @@
                                 <input asp-for="cliente.direccion" class="form-control">
                             
                             </div>
-                                                       
+                            <div class="col-sm-6">
+                                <label asp-for="cliente.genero" class="form-label"></label>
+                                <br>
+                                <select asp-for="cliente.genero" asp-items="@Html.GetEnumSelectList<Genero>()"></select>
+                            
+                            </div>
+                            <br>                         
                             <div class="col-sm-2">
                                 <label >.</label>
                                 <input type="submit" value="Registrarse" class="btn btn-primary form-control">
