@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OjiI9Irq2V/YEDmEapaXWKgJSUMROIQvKOQupsKNzoBDi2paxaYBdCKTHix2tiqsAu0U8/LOlTpOkpAIixfT9Q==",
+  "dgSpecHash": "2OUSfJ/c4dLtjlf8t6nSUqSyyMXhwFxOnOwpgMwYWyEO9kT0EfUyDyJe8f72tEam51PIUwk9OoQiWO7+PCiP6Q==",
   "success": true,
-  "projectFilePath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jmr85\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jmr85\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\jmr85\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\Arnol Garzon\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Arnol Garzon\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Arnol Garzon\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

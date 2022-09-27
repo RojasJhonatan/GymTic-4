@@ -20,3 +20,16 @@ E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Persistencia\bin\Debug\netstanda
 E:\Archivos\MinTic\Proyecto\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.csproj.CopyComplete
 E:\Archivos\MinTic\Proyecto\GymTic-4\gymtic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.csproj.AssemblyReference.cache
 E:\Archivos\MinTic\Proyecto\GymTic-4\gymtic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\bin\Debug\netstandard2.1\GymTic.App.Persistencia.deps.json
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\bin\Debug\netstandard2.1\GymTic.App.Persistencia.dll
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\bin\Debug\netstandard2.1\GymTic.App.Persistencia.pdb
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\bin\Debug\netstandard2.1\GymTic.App.Dominio.dll
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\bin\Debug\netstandard2.1\GymTic.App.Dominio.pdb
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.AssemblyInfo.cs
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.csproj.CopyComplete
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.dll
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Persistencia\obj\Debug\netstandard2.1\GymTic.App.Persistencia.pdb

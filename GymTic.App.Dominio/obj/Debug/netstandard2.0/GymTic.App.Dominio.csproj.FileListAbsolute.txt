@@ -12,3 +12,13 @@ E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0
 E:\Archivos\MinTic\Proyecto\GymTic-4\Gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.pdb
 E:\Archivos\MinTic\Proyecto\GymTic-4\gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.csproj.AssemblyReference.cache
 E:\Archivos\MinTic\Proyecto\GymTic-4\gymtic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\bin\Debug\netstandard2.0\GymTic.App.Dominio.deps.json
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\bin\Debug\netstandard2.0\GymTic.App.Dominio.dll
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\bin\Debug\netstandard2.0\GymTic.App.Dominio.pdb
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.AssemblyInfo.cs
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.dll
+C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Dominio\obj\Debug\netstandard2.0\GymTic.App.Dominio.pdb
