@@ -1,0 +1,22 @@
+﻿@page
+@using GymTic.App.Dominio
+@model GymTic.App.Frontend.Pages.BuscarClienteModel
+@{
+    ViewData["Title"]="Buscar Cliente";
+}
+
+<h1 class="bg-light p-2" style="--bs-bg-opacity: .5;" style="text-aling: center;">Buscar Cliente</h1>
+
+<div class="mx-auto" style="width: 200px;">
+    <label asp-for="cliente.eMail"class="form-label">Email</label>
+    <input asp-for="cliente.eMail" class="form-control" placeholder="ejemplo@micorreo.com">
+
+</div>
+<div class="mx-auto" style="width: 200px;">
+    <label ></label>
+    <input type="submit" value="Buscar" class="btn btn-primary form-control">
+</div>
+<div class="mx-auto" style="width: 200px;">
+    <label ></label>
+    <a asp-page="/Index" class="btn btn-info form-control">Volver</a>                                
+</div>

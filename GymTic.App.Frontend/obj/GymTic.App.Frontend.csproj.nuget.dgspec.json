@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj": {}
+    "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj": {}
   },
   "projects": {
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
+    "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
         "projectName": "GymTic.App.Dominio",
-        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Arnol Garzon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Arnol Garzon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,33 +66,35 @@
         }
       }
     },
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj": {
+    "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
         "projectName": "GymTic.App.Frontend",
-        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\GymTic.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Arnol Garzon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Arnol Garzon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
-                "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj"
+              "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj"
               },
-              "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
-                "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj"
+              "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj"
               }
             }
           }
@@ -127,30 +131,32 @@
         }
       }
     },
-    "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
+    "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
         "projectName": "GymTic.App.Persistencia",
-        "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\jmr85\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Persistencia\\GymTic.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Arnol Garzon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jmr85\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Arnol Garzon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
-                "projectPath": "E:\\Archivos\\MinTic\\Proyecto\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj"
+              "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Arnol Garzon\\Documents\\mintic\\GymTic-4\\GymTic.App.Dominio\\GymTic.App.Dominio.csproj"
               }
             }
           }
