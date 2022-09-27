@@ -21,7 +21,7 @@ namespace GymTic.App.Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = GymTic_4");
+                optionsBuilder.UseSqlServer("Data Source=SQL5063.site4now.net;Initial Catalog=db_a8d1c5_gymtic4database;User Id=db_a8d1c5_gymtic4database_admin;Password=M4urici0");
             }
         }
     }
