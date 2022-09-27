@@ -15,6 +15,7 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Arnol Garzon\Documents\mintic\GymTic-4\GymTic.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+<<<<<<< HEAD
 [C:/Users/Arnol Garzon/Documents/mintic/GymTic-4/GymTic.App.Frontend/Pages/BuscarCliente/BuscarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzY2FyQ2xpZW50ZVxCdXNjYXJDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,6 +25,21 @@ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXJDbGllbnRlXENyZWFyQ2xp
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Arnol Garzon/Documents/mintic/GymTic-4/GymTic.App.Frontend/Pages/Error.cshtml]
+=======
+[E:/Archivos/MinTic/Proyecto/GymTic-4/GymTic.App.Frontend/Pages/BuscarCliente/BuscarCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzY2FyQ2xpZW50ZVxCdXNjYXJDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Archivos/MinTic/Proyecto/GymTic-4/GymTic.App.Frontend/Pages/CrearCliente/CrearCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXJDbGllbnRlXENyZWFyQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Archivos/MinTic/Proyecto/GymTic-4/GymTic.App.Frontend/Pages/EdicionCliente/EdicionCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpY2lvbkNsaWVudGVcRWRpY2lvbkNsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Archivos/MinTic/Proyecto/GymTic-4/GymTic.App.Frontend/Pages/Error.cshtml]
+>>>>>>> fc149d42b8ff8786f908e0d8add574cb7b99816d
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
